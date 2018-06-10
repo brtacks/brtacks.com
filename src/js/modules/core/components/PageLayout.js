@@ -1,8 +1,8 @@
-import React, { PureComponent } from "react";
-import { withRouter } from "react-router-dom";
-import injectSheet from "react-jss";
-import { connect } from "react-redux";
-import { Grid, Row, Col } from "react-bootstrap/lib";
+import React, { PureComponent } from 'react';
+import { withRouter } from 'react-router-dom';
+import injectSheet from 'react-jss';
+import { connect } from 'react-redux';
+import { Grid, Row, Col } from 'react-bootstrap/lib';
 
 const styles = {};
 
@@ -16,16 +16,14 @@ class PageLayout extends PureComponent {
 
     return (
       <Grid fluid>
-        <div className={classes.content}>
-          {children}
-        </div>
+        <div className={classes.content}>{children}</div>
       </Grid>
     );
   }
 }
 
-const mapStateToProps = state => ({
-  
-});
+const mapStateToProps = state => ({});
 
-export default withRouter(connect(mapStateToProps)(injectSheet(styles)(PageLayout)));
+export default withRouter(
+  connect(mapStateToProps)(injectSheet(styles)(PageLayout)),
+);

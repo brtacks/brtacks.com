@@ -64,6 +64,8 @@
     "ejs": "^2.6.1",
     "envify": "^4.1.0",
     "express": "^4.16.3",
+    "gulp-version-number": "^0.1.7",
+    "react-bootstrap": "^0.32.1",
     "yargs": "^8.0.2"
   }
 }
