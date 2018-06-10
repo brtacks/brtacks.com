@@ -5,8 +5,6 @@ const styles = {
   MainApp: {},
 };
 
-const MainApp = ({ classes }) => {
-  return <div className={classes.MainApp}>hi</div>;
-};
+const MainApp = ({ classes }) => <div className={classes.MainApp}>hi</div>;
 
 export default injectSheet(styles)(MainApp);
