@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import injectSheet from 'react-jss';
+import Circles from './Circles';
 
 const styles = {
   title: {
     fontFamily: 'Domaine Display',
-    fontSize: 132,
+    fontSize: '132px',
     '& p': {
       lineHeight: 1,
       position: 'absolute',
+      transformDuration: '.3s',
     },
     '& p:first-child': {
       top: '100px',
@@ -33,8 +35,8 @@ const styles = {
       '& a': {
         color: '#000',
         textDecoration: 'none',
-        fontSize: '35px',
-        margin: '4px 0',
+        fontSize: '32px',
+        margin: '6px 0',
       },
     },
   },
@@ -43,16 +45,25 @@ const styles = {
     position: 'absolute',
     left: '25vw',
     top: '35vh',
-    fontSize: '33px',
-    maxWidth: '220px',
+    fontSize: '46px',
+    maxWidth: '280px',
   },
   underline: {
     textDecoration: 'underline !important',
-  }
+  },
+  '@media (max-width: 991px)': {
+    title: {
+      fontSize: '5em',
+    },
+    tagline: {
+      fontSize: '32px',
+    },
+  },
 };
 
 const HomePage = ({ classes }) => (
   <div>
+    <Circles />
     <div className={classes.title}>
       <p>The</p>
       <p>Brass</p>

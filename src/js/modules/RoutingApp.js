@@ -5,7 +5,7 @@ import ConnectedRouter from 'react-router-redux/ConnectedRouter';
 import appHistory from '../tools/appHistory';
 import store from '../store';
 
-import { PageLayout, MainApp } from './core/components';
+import { PageLayout, HomePage } from './core/components';
 
 class RoutingApp extends Component {
   render() {
@@ -14,7 +14,7 @@ class RoutingApp extends Component {
         <ConnectedRouter history={appHistory}>
           <PageLayout>
             <Switch>
-              <Route exact path="/" component={MainApp} />
+              <Route exact path="/" component={HomePage} />
             </Switch>
           </PageLayout>
         </ConnectedRouter>
