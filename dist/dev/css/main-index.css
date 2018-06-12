@@ -1,13 +1,27 @@
 @font-face {
     font-family: 'Domaine Display';
-    src: url('../fonts/DomaineDispNar-Semibold.otf') format('opentype');
+    src: url('../fonts/DomaineDispNar-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Neue Haas Grotesk';
-    src: url('../fonts/NHaasGrotesk55.ttf') format('truetype');
+    font-family: 'Canela';
+    src: url('../fonts/Canela-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('../fonts/MaisonNeue-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Atlas Grotesk';
+    src: url('../fonts/AtlasGrotesk-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
