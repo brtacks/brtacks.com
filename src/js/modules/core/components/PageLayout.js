@@ -9,9 +9,7 @@ class PageLayout extends PureComponent {
   render() {
     const { classes, children } = this.props;
 
-    return (
-      <div className={classes.content}>{children}</div>
-    );
+    return <div className={classes.content}>{children}</div>;
   }
 }
 

@@ -70,10 +70,20 @@ const HomePage = ({ classes }) => (
       <p>Tacks</p>
     </div>
     <ul className={classes.navbar}>
-      <li><Link className={classes.underline} to="/">Home</Link></li>
-      <li><Link to="/about">About</Link></li>
-      <li><Link to="/articles">Articles</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
+      <li>
+        <Link className={classes.underline} to="/">
+          Home
+        </Link>
+      </li>
+      <li>
+        <Link to="/about">About</Link>
+      </li>
+      <li>
+        <Link to="/articles">Articles</Link>
+      </li>
+      <li>
+        <Link to="/contact">Contact</Link>
+      </li>
     </ul>
     <p className={classes.tagline}>Reason over rhetoric.</p>
   </div>
