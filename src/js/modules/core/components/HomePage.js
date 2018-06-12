@@ -90,9 +90,7 @@ const HomePage = ({ classes }) => (
         <Mail />
         <Link to="mailto:jason.kao@columbia.edu">jason.kao@columbia.edu</Link>
       </p>
-      <p className={classes.iLoveNyc}>
-        Made in New York, NY
-      </p>
+      <p className={classes.iLoveNyc}>Made in New York, NY</p>
     </div>
 
     <p className={classes.title}>The Brass Tacks</p>
@@ -106,7 +104,9 @@ const HomePage = ({ classes }) => (
           Our first article is around the corner.
         </p>
         <p className={classes.preview}>
-          Titled “The Honorable Handshakers,” this piece analyzes the methods and extent to which the Democrats and the Republicans have appealed to the morals within us.
+          Titled “The Honorable Handshakers,” this piece analyzes the methods
+          and extent to which the Democrats and the Republicans have appealed to
+          the morals within us.
         </p>
       </div>
       <div className={classes.rightCol}>
