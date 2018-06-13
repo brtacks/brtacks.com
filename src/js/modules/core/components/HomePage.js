@@ -141,7 +141,7 @@ const HomePage = ({ classes }) => (
       </div>
       <div className={classes.rightCol}>
         <div className={classes.imgContainer}>
-          <img src="./img/lyrics.jpg" />
+          <img src="./img/lyrics.jpg" alt="showcase" />
         </div>
       </div>
     </div>
