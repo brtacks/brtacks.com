@@ -134,7 +134,7 @@ const HomePage = ({ classes }) => (
           Our first article is around the corner.
         </p>
         <p className={classes.preview}>
-          Titled “The Honorable Handshakers,” this piece analyzes the methods
+          Titled &ldquo;The Honorable Handshakers&rdquo;, this piece analyzes the methods
           and extent to which the Democrats and the Republicans have appealed to
           the morals within us.
         </p>
