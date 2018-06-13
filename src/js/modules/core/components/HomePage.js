@@ -49,16 +49,12 @@ const styles = {
   },
   imgContainer: {
     width: '100%',
-    height: '100%',
     backgroundColor: 'rgba(255, 255, 255, 0.4)',
     boxShadow: '0 0 8px 2px rgba(136, 136, 136, 0.5)',
-    padding: '22px 0',
+    padding: '10% 0',
     textAlign: 'center',
     '& img': {
       width: '90%',
-      position: 'relative',
-      top: '50%',
-      transform: 'translateY(-50%)',
     },
   },
   email: {
@@ -68,6 +64,9 @@ const styles = {
     '& a': {
       color: '#000',
       textDecoration: 'none',
+      '&:hover': {
+        textDecoration: 'underline',
+      },
     },
     '& img': {
       marginRight: '6px',
@@ -80,6 +79,37 @@ const styles = {
     fontFamily: 'Atlas Grotesk',
     color: 'rgba(0, 0, 0, 0.82)',
     textTransform: 'uppercase',
+  },
+  '@media (max-width: 768px)': {
+    title: {
+      textAlign: 'center',
+    },
+    subtitle: {
+      textAlign: 'center',
+      width: '100%',
+    },
+    sneakPeek: {
+      display: 'block',
+    },
+    leftCol: {
+      marginBottom: '30px',
+    },
+    rightCol: {
+      marginBottom: '60px',
+    },
+  },
+  '@media (max-width: 586px)': {
+    HomePage: {
+      marginLeft: '7vw',
+      marginRight: '7vw',
+    },
+    title: {
+      lineHeight: 1,
+    },
+    info: {
+      top: '17px',
+      right: '28px',
+    },
   },
 };
 
