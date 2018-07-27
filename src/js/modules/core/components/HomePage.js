@@ -74,11 +74,12 @@ const styles = {
       top: '3px',
     },
   },
-  iLoveNyc: {
+  github: {
     fontSize: '13px',
     fontFamily: 'Atlas Grotesk',
     color: 'rgba(0, 0, 0, 0.82)',
     textTransform: 'uppercase',
+    textDecoration: 'none',
   },
   '@media (max-width: 768px)': {
     title: {
@@ -120,7 +121,13 @@ const HomePage = ({ classes }) => (
         <Mail />
         <Link to="mailto:jason.kao@columbia.edu">jason.kao@columbia.edu</Link>
       </p>
-      <p className={classes.iLoveNyc}>Made in New York, NY</p>
+      <a
+        href="https://github.com/brtacks"
+        target="_blank"
+        className={classes.github}
+      >
+        Check us out on <u>GitHub</u>
+      </a>
     </div>
 
     <p className={classes.title}>The Brass Tacks</p>
@@ -134,9 +141,9 @@ const HomePage = ({ classes }) => (
           Our first article is around the corner.
         </p>
         <p className={classes.preview}>
-          Titled &ldquo;The Honorable Handshakers&rdquo;, this piece analyzes the methods
-          and extent to which the Democrats and the Republicans have appealed to
-          the morals within us.
+          Titled &ldquo;The Honorable Handshakers&rdquo;, this piece analyzes
+          the methods and extent to which the Democrats and the Republicans have
+          appealed to the morals within us.
         </p>
       </div>
       <div className={classes.rightCol}>
