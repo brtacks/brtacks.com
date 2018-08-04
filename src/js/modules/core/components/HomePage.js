@@ -132,7 +132,7 @@ const HomePage = ({ classes }) => (
 
     <p className={classes.title}>The Brass Tacks</p>
     <p className={classes.subtitle}>
-      We publish visual essays on the web to inform sociopolitical discussion.
+      We create visual, data-focused essays to inform sociopolitical discussion.
     </p>
 
     <div className={classes.sneakPeek}>
