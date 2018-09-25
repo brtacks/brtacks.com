@@ -124,6 +124,7 @@ const HomePage = ({ classes }) => (
       <a
         href="https://github.com/brtacks"
         target="_blank"
+        rel="noreferrer noopener"
         className={classes.github}
       >
         Check us out on <u>GitHub</u>
@@ -143,7 +144,8 @@ const HomePage = ({ classes }) => (
         <p className={classes.preview}>
           Titled &ldquo;The Honorable Handshakers&rdquo;, this piece analyzes
           the methods and extent to which the Democrats and the Republicans have
-          appealed to the morals within us.
+          appealed to the morals within us. Check out our progress on{' '}
+          <a href="https://github.com/brtacks/handshakers">GitHub</a>.
         </p>
       </div>
       <div className={classes.rightCol}>

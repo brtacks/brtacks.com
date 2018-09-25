@@ -1,3 +1,3 @@
 import React from 'react';
 
-export const Mail = () => <img src="./img/icons/mail.svg" />;
+export const Mail = () => <img alt="Mail Icon" src="./img/icons/mail.svg" />;
