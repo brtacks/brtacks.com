@@ -48,8 +48,3 @@ html, body {
     margin: 0 auto;
     background-color: #fff;
 }
-
-* {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-}
