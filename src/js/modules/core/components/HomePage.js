@@ -27,6 +27,7 @@ const styles = {
   },
   sneakPeek: {
     marginTop: '202px',
+    minHeight: '450px',
     display: 'flex',
     justifyContent: 'space-between',
   },
@@ -142,15 +143,20 @@ const HomePage = ({ classes }) => (
           Our first article is around the corner.
         </p>
         <p className={classes.preview}>
-          Titled &ldquo;The Honorable Handshakers&rdquo;, this piece analyzes
-          the methods and extent to which the Democrats and the Republicans have
-          appealed to the morals within us. Check out our progress on{' '}
+          &ldquo;Properly Partisan&rdquo; introduces moral foundations theory
+          and analyzes the methods and extent to which our political leaders
+          have appealed to the morals within us. Have a sneak peek{' '}
+          <a href="https://brtacks.github.io/foundations">here</a> or check out
+          our progress on{' '}
           <a href="https://github.com/brtacks/handshakers">GitHub</a>.
+        </p>
+        <p className={classes.preview}>
+          
         </p>
       </div>
       <div className={classes.rightCol}>
         <div className={classes.imgContainer}>
-          <img src="./img/lyrics.jpg" alt="showcase" />
+          <img src="./img/foundations.png" alt="showcase" />
         </div>
       </div>
     </div>
