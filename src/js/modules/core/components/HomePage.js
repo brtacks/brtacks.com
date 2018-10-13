@@ -44,6 +44,7 @@ const styles = {
     fontFamily: 'Atlas Grotesk',
     fontSize: '17px',
     lineHeight: 1.59,
+    marginBottom: '16px',
   },
   rightCol: {
     flexBasis: '44%',
@@ -146,12 +147,33 @@ const HomePage = ({ classes }) => (
           &ldquo;Properly Partisan&rdquo; introduces moral foundations theory
           and analyzes the methods and extent to which our political leaders
           have appealed to the morals within us. Have a sneak peek{' '}
-          <a href="https://brtacks.github.io/foundations">here</a> or check out
-          our progress on{' '}
-          <a href="https://github.com/brtacks/handshakers">GitHub</a>.
+          <a
+            href="https://brtacks.github.io/foundations"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            here
+          </a>{' '}
+          or check out our progress on{' '}
+          <a
+            href="https://github.com/brtacks/handshakers"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            GitHub
+          </a>.
         </p>
         <p className={classes.preview}>
-          
+          Our second essay will be an explainer on fairness, the different types
+          of fairness (e.g. fairness through unawareness, demographic parity),
+          and a message on fairness today. Process and ideation on{' '}
+          <a
+            href="https://github.com/brtacks/fairness"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            GitHub
+          </a>.
         </p>
       </div>
       <div className={classes.rightCol}>
